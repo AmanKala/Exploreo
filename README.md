@@ -7,13 +7,13 @@
 ### Technical Description For Developers :
 - **Exploreo** is a `MERN Stack based Web Application`, which comes along with all the `CRUD operations`.
 - It contains a frontend of `React.js`, a backend of `Node.js` along with the `Express.js` framework, `MongoDB` is used for the database operations and `Mongoose` is used for `Object Data Modeling (ODM)` in it.
-- It consists of an `Authentication System` for for registration and login functionalities.
+- It consists of an `Authentication System` for registration and login functionalities.
 - Errors are shown under the respective fields if the user violetes the rules during registration and login. 
 - After a successful login/register the user is redirected to the `Home page`.
 - Only after a succesfull login/registration the user will be able to `Create`, `Edit` or `Delete` the place the user has created.
 - **The Backend:**
   - It contains three `Models` i.e. for  `Users`, `Places`, and the `http-errors`, which represent their repective schema.
-  - A couple of `Middlewares` are provided in namely `check-auth` and `file-upload` to ensure a desired data format.
+  - A couple of `Middlewares` are provided, namely `check-auth` and `file-upload` to ensure a desired data format.
   - There are two files for `Routes`, one is for the users and the other is for the places.
   - In order to reduce the load on our database we are storing the images locally in the `Uploades` folder.
   - `REST APIs` are used to connect the frontend and the backend.
@@ -35,13 +35,44 @@
 ![image](https://github.com/AmanKala/Exploreo/assets/73444046/e0ed60a7-4be4-436e-b34b-42d832ef3278)
 
 2. **Home Page With User Login:**
+![image](https://github.com/AmanKala/Exploreo/assets/73444046/486bda3c-984b-4ecc-97d6-6be4824c4219)
 
 3. **Places' Listing Page Without User Login:**
+![image](https://github.com/AmanKala/Exploreo/assets/73444046/e7edbb2c-1632-4827-b427-d8b543c04c5a)
 
 4. **Places' Listing Page With User Login:**
+![image](https://github.com/AmanKala/Exploreo/assets/73444046/bab77822-2f36-4ab4-9415-c9c926f36f0f)
 
 5. **Login Page:**
+![image](https://github.com/AmanKala/Exploreo/assets/73444046/798ee85a-3e25-4aff-b5ca-0b48606cc29e)
 
 6. **Register Page:**
+![image](https://github.com/AmanKala/Exploreo/assets/73444046/2a3261bb-2297-41c4-bf93-2231d11cfa01)
 
 7. **Edit Screen:**
+![image](https://github.com/AmanKala/Exploreo/assets/73444046/692c097f-6960-41c8-a633-9e0bf912986b)
+
+8. **Add Place Screen:**
+![image](https://github.com/AmanKala/Exploreo/assets/73444046/d03e4b87-04f8-4ab7-b610-64741e3f33bf)
+
+<hr/>
+
+## Resources Referred:
+- **Udemy:**  React, NodeJS, Express & MongoDB - The MERN Fullstack Guide <br/>
+  https://www.udemy.com/share/102fVS3@Vb78kl7kl5lORQI2gIq-hMJRn2U_ZelMimB60xdbBn1v1kqrnr_FmbWXhziTgF1ELg==/
+
+- **W3School:** Node.js Tutorial <br/>
+  https://www.w3schools.com/nodejs/
+  
+- **Youtube:** Complete Node.js Playlist <br/>
+  https://youtube.com/playlist?list=PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8
+  
+- **React.js Official Documentation:** React Quick Start <br/>
+  https://react.dev/learn
+  
+- **W3School:** MongoDB Tutorial <br/>
+  https://www.w3schools.com/mongodb/
+  
+<hr/>
+
+# ----- Happy Coding...... -----
